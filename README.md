@@ -1,7 +1,24 @@
-# How-to-load-items-in-WPF-HierarchyNavigator-Breadcrumb-control-in-on-demand-
-This repository provides a practical example demonstrating how to load items in the WPF HierarchyNavigator (Breadcrumb) control on-demand using Syncfusion's WPF controls. The HierarchyNavigator is a powerful UI component that allows users to navigate hierarchical data structures efficiently, similar to a breadcrumb navigation system.
-In many real-world applications, loading all hierarchical data at once can be inefficient or unnecessary. This sample shows how to optimize performance by loading items dynamically as the user interacts with the control. This approach is particularly useful when dealing with large datasets or when data retrieval involves expensive operations such as database queries or API calls.
-The implementation leverages Syncfusion’s flexible architecture to define custom logic for loading child items only when needed. This not only improves application responsiveness but also reduces memory usage.
-For detailed guidance, refer to the Syncfusion Knowledge Base article:  
+# How to Load Items in WPF HierarchyNavigator Breadcrumb Control On-Demand
+## Overview
+This repository provides a practical example demonstrating how to load items on-demand in the Syncfusion WPF HierarchyNavigator (Breadcrumb) control. The HierarchyNavigator is a powerful UI component that enables users to navigate hierarchical data structures efficiently, similar to a breadcrumb navigation system.
+
+In many real-world applications, loading all hierarchical data at once can be inefficient or unnecessary. This sample demonstrates how to optimize performance by dynamically loading items as users interact with the control.
+
+This approach is especially beneficial when working with:
+- Large datasets
+- Expensive data retrieval operations (e.g., database queries, API calls)
+- Scenarios requiring responsive and scalable UI behavior
+
+## Key Benefits
+- Improved Performance: Load only the necessary data when needed.
+- Reduced Memory Usage: Avoid loading unused data.
+- Enhanced User Experience: Faster interactions and smoother navigation.
+
+## Implementation Highlights
+- Leverages Syncfusion’s flexible architecture to define custom logic for loading child items.
+- Uses event-driven techniques to fetch and display data dynamically.
+- Demonstrates how to bind hierarchical data efficiently.
+
+## Reference
+For detailed guidance and step-by-step instructions, refer to the official Syncfusion Knowledge Base article:
 [How-to-load-items-in-WPF-HierarchyNavigator-Breadcrumb-control-in-on-demand](https://www.syncfusion.com/kb/11221/how-to-load-items-in-wpf-hierarchynavigator-breadcrumb-control-in-on-demand)
-This example is ideal for developers looking to enhance the performance and scalability of WPF applications using Syncfusion controls.
